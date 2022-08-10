@@ -1,0 +1,132 @@
+devices:
+    common: []
+    debug: []
+    release: []
+dockercomposefile:
+    common: ''
+    debug: ''
+    release: ''
+extraparms:
+    common: {}
+    debug: {}
+    release: {}
+id: 7085a93b-cb60-45c8-9123-402ff976da10
+images:
+    debug: ''
+    release: ''
+imagetags:
+    debug: cppqtcore_arm64v8-qt5-vivante-no-ssh_bullseye_debug_7085a93b-cb60-45c8-9123-402ff976da10
+    release: cppqtcore_arm64v8-qt5-vivante-no-ssh_bullseye_release_7085a93b-cb60-45c8-9123-402ff976da10
+modificationdate: '2022-08-10T18:40:12.867418'
+networks:
+    common: []
+    debug: []
+    release: []
+otapackagename: ''
+otapackageversion: 1.0.0
+platformid: arm64v8-qt5-vivante-no-ssh_bullseye
+ports:
+    common: {}
+    debug: {}
+    release: {}
+privatekey: '-----BEGIN RSA PRIVATE KEY-----
+
+    MIIEowIBAAKCAQEAi4xIJfK0UAjt5fE2HLNljxC6d9cRdOG5+4nkewe4xYeOcIIx
+
+    U1ICETRKWFfSIREADmHju6Z/BR7GuvCWGxhstmwLJDge8330fszi0cigiOKtdjF0
+
+    6Q2AiWT0fdOTOSVcGoJVxXu5L4KO44PYWlfBIZCTQlgRNzbYfMnvBkEmGzPOqPCr
+
+    4i2cxcJzYyzgSsa/EeoCz12YggDerpsTcL2mdMEDOil4INWF2nUGtLEZbo0Encvp
+
+    oScqtkBPtsUA5ZnkIzoKaTnkjcZyL0+70khgDjgvWkAcwI/Y+PVef1hWiZnqe9wi
+
+    0njl+LYfAenaSFg5XJfvFG+5ModUbkAv2s97/wIDAQABAoIBACYFDN0l8IGDxUkq
+
+    PFt6dxeQ77TZ6DwnidPiAFmSw4ExyxmVJxoz1DNaw0ypdKskphbFDdZg6Od8uJlT
+
+    FhqAv5G+AxUVoz0k2nm3ma6dUjupQqhalicu0g/c7Q3hGJHvv1XLn9HDwTMUB5ku
+
+    IUKP+SMLcEuZkeswqq/pFpHmKxsqzbmrL9G0nEAogANCs6lwpB+8SRgxOUoGTFOF
+
+    K82dflb3F5J+JgxV1diqIHtJ93PZiJQUn65bnqE2pucbzTehRqJcz6Z01QkY1yJC
+
+    OMEPo0/yNJBVPHuEGpAVnl+RZcFh0Erh5thPUsPRVgVImMEIN3nwGIsLR5E4qwP/
+
+    EcXw70kCgYEAth5jGOpLvo7I1Mni7lzdo8sQkGYgq2aXlnwvNycGy5Uv6j44gO3W
+
+    FHuMQVvPgS/vYCY8ytlWrfOOyqzjXDBvPQaAbZf4yZ4SrKPMgp118OWv36S1aAcZ
+
+    juR0Wz6AXZNnwuZ/uqXAFwIhf3KFMmqqFXQyfunlYL0uZvO6e6ZJe2kCgYEAxCjJ
+
+    wVKH8BUV0Y6avn3/DISsWBo4cFrAlYcj/XQG0Jno70S8YDEOiZYjEk3QRZIyBTiF
+
+    qw6fQqWG/IH7ciXqVsVj2ozQvJGxt9ZKe7wPcPpb32lbLi3v7RI6mHddVWecO+Oy
+
+    gaYp6/Gu07mJOszTvzbvXt+UjVdxipso87KlVycCgYA8MiMTMy5CGDPtkaV+oBdq
+
+    ck5RTFB0Fv738KgylKW8WN1zkYlfpD1km8mqOMyHqO54W2swqVHrQVvrReYIrMG3
+
+    7BQ7JUZIbgVCJwoMCjvXmjPdujVz4xThlEWZezk2tOhRFZsWeH7bnAqyc4nvNi5t
+
+    1PBz3p/AsAdMZDc5c6dKMQKBgHknsCVFckyo2UcLSyxo6cSzlTb9SuqqQtSYGXSL
+
+    20GwLhzKWYcYBaCZKKQ/h2nQ+DAdTwHuEBO75PnE1qcUH/7j/96Wpr4xRpEDPBHc
+
+    f7UKDQCaNAT7vnqwjZxp7S24xth+tFw7Yx0lsxN2PvogVJB/v6zbbwc1gR1Y5BxQ
+
+    tKp1AoGBAK8Ecl9NfFhvOAvTVceIn17TtMVFD3c7kc13meFr85/GXaTy3D3/RQyu
+
+    zDco474uUXEua+QMPFytBtoNkYxnMXBb27U4KrgK2yDBTvXpisq5HZ9S3xj8HQAo
+
+    JVH4ZQBjaq01y+lK3WEr04kg7CKZm8Sor3DOsggKtDOJmDAVMj7N
+
+    -----END RSA PRIVATE KEY-----
+
+    '
+props:
+    common:
+        appname: cppqtcore
+        arg: ''
+        buildcommands: ''
+        buildfiles: ''
+        command: ''
+        devpackages: ''
+        env: ''
+        exename: cppqtcore
+        expose: ''
+        extrapackages: ''
+        language: c-cpp-nossh
+        preinstallcommands: ''
+        sdkpostinstallcommands: ''
+        sdkpreinstallcommands: ''
+        targetcommands: ''
+        targetfiles: ''
+    debug:
+        arg: 'ARG SSHUSERNAME=#%application.username%#
+
+            '
+    release: {}
+publickey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCLjEgl8rRQCO3l8TYcs2WPELp31xF04bn7ieR7B7jFh45wgjFTUgIRNEpYV9IhEQAOYeO7pn8FHsa68JYbGGy2bAskOB7zffR+zOLRyKCI4q12MXTpDYCJZPR905M5JVwaglXFe7kvgo7jg9haV8EhkJNCWBE3Nth8ye8GQSYbM86o8KviLZzFwnNjLOBKxr8R6gLPXZiCAN6umxNwvaZ0wQM6KXgg1YXadQa0sRlujQSdy+mhJyq2QE+2xQDlmeQjOgppOeSNxnIvT7vSSGAOOC9aQBzAj9j49V5/WFaJmep73CLSeOX4th8B6dpIWDlcl+8Ub7kyh1RuQC/az3v/
+sdkimages:
+    debug: sha256:4e567e423f5ad4f431f0ce02498cc681796cd39c014818a60f790e936940fccf
+    release: ''
+sdkimagetags:
+    debug: cppqtcore_arm64v8-qt5-vivante-no-ssh_bullseye_debug_7085a93b-cb60-45c8-9123-402ff976da10_sdk_image
+    release: cppqtcore_arm64v8-qt5-vivante-no-ssh_bullseye_release_7085a93b-cb60-45c8-9123-402ff976da10_sdk_image
+sdksshaddress:
+    debug: null
+    release: null
+shutdownscript:
+    common: ''
+    debug: ''
+    release: ''
+startupscript:
+    common: ''
+    debug: ''
+    release: ''
+username: torizon
+volumes:
+    common: {}
+    debug: {}
+    release: {}

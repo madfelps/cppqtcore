@@ -1,0 +1,32 @@
+label: Qt core sample
+detail: '$(console) Creates a basic Qt sample, without any UI'
+tags:
+  - qt
+env:
+  AR: '%{torizon.prefix}ar'
+  AS: '%{torizon.prefix}as'
+  CC: '%{torizon.prefix}gcc'
+  CXX: '%{torizon.prefix}g++'
+  CPP: '%{torizon.prefix}cpp'
+  STRIP: '%{torizon.prefix}strip'
+  LD: '%{torizon.prefix}ld'
+  CROSS_COMPILE: '%{torizon.prefix}'
+  QMAKE: '%{torizon.prefix}qmake'
+  QT_INCLUDES: '%{torizon.qt-includepath}'
+checkfiles:
+  - ^.*\.(pro)$
+testing:
+  - title: Qt5
+    createCmd: torizon.createCCPPApp
+    projName: CCPPQtConsole
+    platformDistroCodeName: bullseye
+    baseContainer:
+      arm32v7: qt5-wayland-no-ssh_bullseye
+      arm64v8: qt5-vivante-no-ssh_bullseye
+    mainSourceFile: FreshNewCCPPQtConsole.cpp
+    mainSourceFileBreakPoint: 6
+    programOutput: hello world!
+    hasSDKContainer: true
+    stopOnEntry: true
+    messageOnTerminalConsole: true
+extversion: 1.6.0
