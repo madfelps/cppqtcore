@@ -33,4 +33,4 @@ DEBIAN_FRONTEND=noninteractive
 TERM_PROGRAM=vscode
 VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-a8ce26d0-0bda-4e9c-9bc1-d443347c8104.sock
 _=/usr/bin/env
-QMAKE_DESTIDIR=/workspaces/${{ github.event.repository.name }}/appconfig_0/work/cppqtcore
+QMAKE_DESTIDIR=/workspaces/cppqtcore/appconfig_0/work/cppqtcore
